@@ -1,0 +1,47 @@
+.line2{
+    background-color: #CF9B9B;
+    width: 98%;
+    height: 0.5%;
+    padding-left: 6%;
+    margin-left: 1%
+    
+}
+.titulo{
+    font-size: 14vh;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 2.5vh ;
+    text-align: center;
+    padding-top: 3vh;
+}
+.modelo1{
+   
+    width: 38.5vh;
+}
+.modelo2{
+    width: 43vh;
+}
+.modelo3{
+    width: 47vh ;
+}
+.modelo4{
+    width: 48vh;
+}
+.modelos{
+    padding-top: 2vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap:1.5%;
+}
+.regioes{
+    padding-top: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 9vh;
+}
+.makess{
+    
+   
+}

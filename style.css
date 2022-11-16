@@ -3,17 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
-    height:100px;
-    font-size: 90%;
-    color: #ffff;
-    text-align: center;
-    align-items: center;
-    
-    
-}
 .home{
-    background-color: blueviolet;
 }
 .makes{
     background-color: blue;
@@ -30,19 +20,7 @@ section {
 .footer{
     height: 50vh;
     width: 40vh;
+   
 }
-.desconto{
-    background-color: black;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
-    width: 100%;
-}
-.logo{
-    background-color: aqua;
-  
-    justify-content: center;
 
-
+ 
