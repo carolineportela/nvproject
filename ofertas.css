@@ -1,0 +1,15 @@
+.titulooferta{
+    font-size: 7vh;
+}
+.imgofertas{
+    width: 74vh;
+    height: 69vh;
+}
+.fraseoferta{
+    font-size: 2vh;
+}
+.ofertassemana{
+    padding-left: 7vh;
+    gap: 5vh;
+
+}
