@@ -48,12 +48,10 @@
 }
 .buttonmake{
     background-color: aqua;
-    display: flex;
-    padding-top: 7vh;
-    margin-left: 78vh;
- 
-    text-align: center;
-    width: 54vh;
    
 
+
+   height: 3vh;
+    width: 100vh;
+   
 }

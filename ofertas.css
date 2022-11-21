@@ -9,7 +9,17 @@
     font-size: 2vh;
 }
 .ofertassemana{
+    padding-top: 4vh;
     padding-left: 7vh;
-    gap: 5vh;
+}
 
+.imgofertas{
+    padding-top:2vh;
+}
+.imagensprodutos{
+   display: flex;
+   flex-direction: row;
+}
+.produtos{
+   
 }

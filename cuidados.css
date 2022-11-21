@@ -1,0 +1,14 @@
+.nossoscuidados{
+    background-color: hsl(0, 51%, 75%);
+   height: 30vh;
+   align-items: center;
+   text-align: center;
+}
+.titulo{
+    text-align: center;
+    font-size: 9vh;
+    padding-top: 7.6vh;
+}
+.line3{
+    background-color: black;
+}
