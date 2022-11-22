@@ -1,4 +1,4 @@
-.titulooferta{
+/* .titulooferta{
     font-size: 7vh;
 }
 .imgofertas{
@@ -20,6 +20,55 @@
    display: flex;
    flex-direction: row;
 }
+.ofertassemana{
+    display: flex;
+}
 .produtos{
    
+} */
+.ofertas{
+    display: grid;
+    grid-template-areas: 
+    "line line"
+    "oferta ."
+    "oferta preco";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+}
+.line-rosa{
+    grid-area: line;
+    width: 1300px;
+    height: 2px;
+    background-color: #CF9B9B;
+    margin-top: 42px;
+}
+.oferta-title{
+    font-size: 5vh;
+}
+.container-oferta{
+    display: flex;
+    margin-left: 8vh;
+    margin-top: 4vh;
+}
+.oferta{
+    grid-area: oferta;
+    display: flex;
+    flex-direction: column;
+}
+.mulher{
+    width: 591px;
+}
+.produtos-oferta{
+    grid-area: preco;
+}
+.produto1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    margin-top:15vh ;
+}
+.produto1 img{
+    width: 150px;
 }

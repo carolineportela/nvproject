@@ -1,14 +1,47 @@
 .nossoscuidados{
     background-color: hsl(0, 51%, 75%);
-   height: 30vh;
+   height: 25vh;
    align-items: center;
    text-align: center;
 }
 .titulo{
     text-align: center;
-    font-size: 9vh;
-    padding-top: 7.6vh;
+    font-size: 7vh;
+    padding-top: 8vh;
 }
 .line3{
     background-color: black;
 }
+.pai{
+    
+    padding-top: 8vh;
+    padding-left: 14vh;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    align-items: center;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    background-color: chartreuse;
+    width: 40vh;
+    height: 40vh;
+}
+.card-container2{
+    background-color:coral;
+    width: 40vh;
+    height: 40vh;
+    
+}
+.card-container3{
+    background-color:cornflowerblue;
+    width: 40vh;
+    height: 40vh;
+}
+
+
+
