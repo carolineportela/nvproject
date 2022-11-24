@@ -1,5 +1,5 @@
 .nossoscuidados{
-    background-color: hsl(0, 51%, 75%);
+    background-color: hwb(0 80% 2%);
    height: 25vh;
    align-items: center;
    text-align: center;
@@ -15,33 +15,91 @@
 .pai{
     
     padding-top: 8vh;
-    padding-left: 14vh;
+   
     display: flex;
     justify-content: center;
     gap: 10vh;
     align-items: center;
 }
-.foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.foto-diamante{
+  width: 15vh;
+  padding-top: 7vh;
+  margin-left: 17vh;
 }
 .card-container{
-    background-color: chartreuse;
-    width: 40vh;
-    height: 40vh;
+    background-color:#F9F9F9;
+
+    width: 50vh;
+    height: 50vh;
 }
 .card-container2{
-    background-color:coral;
-    width: 40vh;
-    height: 40vh;
+    background-color:#F9F9F9;
+    width: 50vh;
+    height: 50vh;
     
 }
 .card-container3{
-    background-color:cornflowerblue;
-    width: 40vh;
-    height: 40vh;
+    background-color:#F9F9F9;
+    width: 50vh;
+    height: 50vh;
 }
-
+.exclusivo{
+  display: flex;
+  padding-left: 18vh;
+    
+}
+.description-exclusivo{
+   justify-content: center;
+   align-items: center;
+   font-size: center;
+    padding-top: 9%;
+    padding-left: 7%;
+}
+.frases{
+    padding-top: 2vh;
+    padding-left: 5vh;
+}
+.foto-coelho{
+    width: 15vh;
+    padding-top: 7vh;
+    margin-left: 17vh;
+  }
+  .LIVRE{
+    display: flex;
+    padding-left: 10vh;
+      
+  }
+  .description-livre{
+    justify-content: center;
+    align-items: center;
+    font-size: center;
+     padding-top: 9%;
+     padding-left: 7%;
+ }
+ .frases2{
+    padding-top: 2vh;
+    padding-left: 5vh;
+}
+.foto-hipo{
+    width: 15vh;
+    padding-top: 7vh;
+    margin-left: 17vh;  
+} 
+ .HIPO{
+    display: flex;
+    padding-left: 14vh;
+  }
+  .description-hipo{
+    justify-content: center;
+    align-items: center;
+    font-size: center;
+     padding-top: 9%;
+     padding-left: 7%;
+ }
+ .frases3{
+    
+    padding-top: 2vh;
+    padding-left: 5vh;
+}
 
 

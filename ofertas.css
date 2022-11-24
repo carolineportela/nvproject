@@ -39,36 +39,48 @@
 }
 .line-rosa{
     grid-area: line;
-    width: 1300px;
+    width: 200vh;
     height: 2px;
     background-color: #CF9B9B;
-    margin-top: 42px;
+    margin-top: 2.5vh;
 }
 .oferta-title{
-    font-size: 5vh;
+    font-size: 8vh;
+    
 }
 .container-oferta{
     display: flex;
     margin-left: 8vh;
     margin-top: 4vh;
 }
+.oferta-description{
+    padding-top: 2vh;
+}
+
 .oferta{
     grid-area: oferta;
     display: flex;
     flex-direction: column;
 }
 .mulher{
-    width: 591px;
+    width: 65vh;
+    padding-top: 2vh;
+   
 }
 .produtos-oferta{
     grid-area: preco;
 }
 .produto1{
+    width: 10%;
+    height: 200px;
     display: flex;
     flex-direction: column;
-    margin-left: 10vh;
-    margin-top:15vh ;
+    margin-left: 1vh;
+    margin-top:35vh ;
 }
 .produto1 img{
-    width: 150px;
+    width: 16vh;
+}
+.produto2 img{
+    width: 16vh;
 }
