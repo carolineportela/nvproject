@@ -16,24 +16,28 @@
     padding-top: 3vh;
 }
 .modelo1{
+    width: 49vh;
    
-    width: 38.5vh;
+    
 }
 .modelo2{
-    width: 43vh;
-}
-.modelo3{
-    width: 47vh ;
-}
-.modelo4{
     width: 48vh;
 }
+.modelo3{
+    width: 60vh;
+}
+.modelo4{
+    width: 53vh;
+}
 .modelos{
-    padding-top: 2vh;
+    padding-top: 8vh;
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-left: 2%;
+    padding-right: 4vh;
     gap:1.5%;
+    
 }
 .regioes{
     padding-top: 8vh;
@@ -46,12 +50,16 @@
     font-family: 'Ubuntu', sans-serif;
    
 }
-.buttonmake{
-    background-color: aqua;
+.botao{
+    padding-top: 5vh;
+    padding-left: 75vh;
    
-
-
-   height: 3vh;
-    width: 100vh;
+}
+.buttonmake{
+   
+    background-color: #e0b2b2;
+    height: 6.5vh;
+    width: 65vh;
+  
    
 }

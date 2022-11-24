@@ -40,10 +40,12 @@
 .image{
    display: flex;
    flex-direction: row;
+   
 }
 .produto{
     margin-left: 2.2%;
-   margin-top: 10%;
+    margin-top: 10%;
+    
  }
  .inspire{
     height: 50%;
