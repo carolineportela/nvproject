@@ -26,6 +26,7 @@
 .produtos{
    
 } */
+
 .ofertas{
     display: grid;
     grid-template-areas: 
@@ -64,7 +65,7 @@
     flex-direction: column;
 }
 .mulher{
-    width: 65vh;
+    width: 85vh;
     padding-top: 2vh;
    
 }
@@ -79,9 +80,34 @@
     margin-left: 1vh;
     margin-top:35vh ;
 }
+.produto2{
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+   
+}
 .produto1 img{
-    width: 16vh;
+    width: 22vh;
 }
 .produto2 img{
     width: 16vh;
+}
+.produto3{
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    margin-top:35vh ;
+}
+.produto4{
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    margin-top: 90%
+   
 }

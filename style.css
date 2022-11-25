@@ -33,10 +33,36 @@ main{
 section {
     height: 100vh;
 }
+section .ofertas{
+    height: 130vh;
+}
 .footer{
     height: 50vh;
     width: 40vh;
    
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.back {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    right: 30px;
+    bottom: 16px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color:#CF9B9B;
+    transition: .18s;
+    opacity: 6.3;
+    z-index: 1;
+}
+
+.back:hover {
+    opacity: 1.5;
+}
  

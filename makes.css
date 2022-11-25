@@ -1,10 +1,10 @@
 .line2{
+    grid-area: line;
+    width: 200vh;
+    height: 2px;
     background-color: #CF9B9B;
-    width: 98%;
-    height: 0.5%;
-    padding-left: 6%;
-    margin-left: 1%
-    
+    margin-top: 2.5vh;
+    margin-left: 7vh;
 }
 .titulo{
     font-size: 14vh;
@@ -16,7 +16,7 @@
     padding-top: 3vh;
 }
 .modelo1{
-    width: 49vh;
+    width: 45vh;
    
     
 }
@@ -24,7 +24,7 @@
     width: 48vh;
 }
 .modelo3{
-    width: 60vh;
+    width: 55vh;
 }
 .modelo4{
     width: 53vh;
@@ -39,13 +39,8 @@
     gap:1.5%;
     
 }
-.regioes{
-    padding-top: 8vh;
-    display: flex;
-    justify-content: space-evenly;
-    padding-right: 9vh;
-    color:#CF9B9B;
-}
+
+
 .makes{
     font-family: 'Ubuntu', sans-serif;
    
