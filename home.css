@@ -7,24 +7,32 @@
     height: 5vh;
     width: 100%;
 }
-.logo{
-    background-color: aqua;
-    width: 20%;
-}
-.line{
-    background-color: #CF9B9B;
 
+.headerdiv{
+    display: flex;
+    justify-content: space-around;
+    
+    place-self: center;
+    
+}
+.frase-marca{
+    font-size: 7vh;
+}
+.ola{
+ 
+  
 }
 .cadastro{
-    display: flex;
-    gap: 68vh;
-    padding-top: 6vh;
-    padding-left: 6vh;
+   
+    
+    background-color: #FF0C63;
 }
 .marca{
-    font-size: 5vh;
+    background-color: #605d5e;
 }
-
+.sociais{
+    background-color: aqua;
+}
 .marimaria{
     margin-left: 2%;
     margin-top: 1vh;
