@@ -10,29 +10,14 @@
 
 .headerdiv{
     display: flex;
-    justify-content: space-around;
-    
-    place-self: center;
-    
+    justify-content: space-around;   
+    background-color: #CF9B9B;
 }
+
 .frase-marca{
-    font-size: 7vh;
+    font-size: 6.1vh;
 }
-.ola{
- 
-  
-}
-.cadastro{
-   
-    
-    background-color: #FF0C63;
-}
-.marca{
-    background-color: #605d5e;
-}
-.sociais{
-    background-color: aqua;
-}
+
 .marimaria{
     margin-left: 2%;
     margin-top: 1vh;
@@ -71,7 +56,7 @@
     font-size: 9.5vh;
  }
 .oi{
-    color: #FF0C63;
+    color:  #1f1f1f;
     font-size: 3vh;
 }
 .importante{
@@ -80,8 +65,8 @@
 .button{
     width: 250px;
     height: 45px;
-    background-color: bisque;
-    color: #000000;
+    background-color: #000000;
+    color: #CF9B9B;
     display: flex;
     justify-content: center;
     align-items: center;

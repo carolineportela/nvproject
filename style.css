@@ -10,14 +10,22 @@
 }
 .header{
     grid-area: content;
+    background-color:blue ;
+   
 }
+
+.lineheader{
+    background-color: #CF9B9B;
+
+}
+   
 main{
     grid-area: content;
 }
 .footer{
     grid-area: content;
     place-self: end start;
-    background-color: aqua;
+   
 }
 .home{
 }
