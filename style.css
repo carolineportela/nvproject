@@ -72,7 +72,7 @@ html {
 .footer2{
     background-color: #000000;
     color: #e2b7b7;
-    height: 34vh;
+    height: 25%;
  
 }
 .redes{
@@ -93,3 +93,13 @@ html {
     padding-top: 3%;
    
  }
+ @media (max-width: 640px) {
+    header .desconto{
+        font-size: 75%;
+    }
+   
+    inspire .oi{
+        background-color: aqua;
+    }
+   
+}
