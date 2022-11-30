@@ -61,3 +61,22 @@
   
    
 }
+
+@media (max-width: 640px) {
+    .modelos{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .modelo2{
+        margin-top: 3vh;
+    }
+    .modelo3{
+        margin-top: 3vh;
+    }
+    .modelo4{
+        margin-top: 3vh;
+    }
+   
+   
+    }
