@@ -13,11 +13,11 @@
 
 .line-rosa {
     grid-area: line;
-    width: 200vh;
+    width: 94%;
     height: 2px;
     background-color: #CF9B9B;
-    margin-top: 6vh;
-    margin-left: 7vh;
+    margin-top: 3.2%;
+    margin-left: 3%;
 }
 
 .oferta-title {
@@ -53,7 +53,13 @@
     justify-content: center;
     align-items: center;
 }
+.serum-rosa{
+    padding-top: 60%;
+}
+.serum-marrom{
+    padding-top: 40%;
 
+}
 .produtos-oferta2 {
     grid-area: preco;
     padding-left: 12vh;

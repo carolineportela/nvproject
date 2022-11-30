@@ -73,4 +73,21 @@
     margin-top: 3vh;
     margin-left: 9%; 
  }
- 
+ @media (max-width: 640px) {
+    section .home{
+       
+    }
+  .produto-base{
+  margin-top: 9%;
+
+  }
+  .image2{
+    width: 7%;
+    height: 2%;
+  }
+  .inspire{
+  margin-top: 50%;
+  margin-left: 3%;
+   
+ }
+}

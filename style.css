@@ -10,15 +10,9 @@
 }
 .header{
     grid-area: content;
-    background-color:blue ;
-   
 }
 
-.lineheader{
-    background-color: #CF9B9B;
 
-}
-   
 main{
     grid-area: content;
 }
@@ -39,6 +33,7 @@ main{
 .cuidados{
    
 }
+
 section {
     height: 100vh;
 }
@@ -74,4 +69,27 @@ html {
 .back:hover {
     opacity: 1.5;
 }
+.footer2{
+    background-color: #000000;
+    color: #e2b7b7;
+    height: 34vh;
  
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%
+}
+ .informa{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+ }
+ .desenvolvido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+   
+ }
