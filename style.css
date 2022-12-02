@@ -73,6 +73,7 @@ html {
     background-color: #000000;
     color: #e2b7b7;
     height: 25%;
+  
  
 }
 .redes{
@@ -98,8 +99,10 @@ html {
         font-size: 75%;
     }
    
-    inspire .oi{
-        background-color: aqua;
+   
+    .footer2{
+        display: flex;
+        flex-direction: column;
     }
    
 }

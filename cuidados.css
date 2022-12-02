@@ -99,6 +99,18 @@
     padding-top: 2vh;
     padding-left: 5vh;
 }
+@media (max-width: 640px) {
+    .pai{
+        display: flex;
+        flex-direction: column;
+    }
+   .nossoscuidados{
+    display: flex;
+    flex-direction: column;
 
+   }
+   
+   
+    }
 
 

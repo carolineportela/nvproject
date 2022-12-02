@@ -66,6 +66,8 @@
     .modelos{
         display: flex;
         flex-direction: column;
+        
+        
     }
    
     .modelo2{
@@ -77,6 +79,16 @@
     .modelo4{
         margin-top: 3vh;
     }
-   
-   
-    }
+   .botao{
+
+ 
+    
+
+   }
+   .buttonmake{
+   height: 20%;
+   font-size: 90%;
+
+ 
+}
+}
