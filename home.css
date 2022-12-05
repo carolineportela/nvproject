@@ -80,6 +80,12 @@
     width: 300px;
     height: 400.42px;
    }
+   .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
    .image2{
     padding-left: 4%;
     width: 90px;
@@ -92,6 +98,9 @@
    }
   .lista{
     font-size: 70;
+  }
+  .inspire{
+    display: none;
   }
  
    
