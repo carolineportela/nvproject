@@ -21,29 +21,22 @@ main{
     place-self: end start;
    
 }
-.home{
-}
-.makes{
-    
-}
-.ofertas{
-  
-  
-}
-.cuidados{
-   
-}
+
 
 section {
-    height: 100vh;
+    height: 100%;
 }
 section .ofertas{
     height: 130vh;
 }
-.footer{
+footer{
     height: 50vh;
     width: 40vh;
-   
+    background-color: #000000;
+    color: #e2b7b7; 
+    width: 100%;
+    height: 100%;   
+
 }
 
 html {
@@ -69,12 +62,21 @@ html {
 .back:hover {
     opacity: 1.5;
 }
-.footer2{
-    background-color: #000000;
-    color: #e2b7b7;
-    height: 25%;
+
+.ul{
+   font-size: 3.5vh;
+   display: flex;
+   gap: 4vh;
+   margin-top: 2%;
+}
+
+.redes{
   
- 
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%   
 }
 .redes{
     display: flex;
@@ -86,23 +88,47 @@ html {
     display: flex;
     justify-content: space-around;
     padding-top: 4%;
+    background-color: #000000;
+    color: #e2b7b7;
  }
  .desenvolvido{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 3%;
-   
+    color: #e2b7b7;
  }
+   
+ 
  @media (max-width: 640px) {
     header .desconto{
         font-size: 75%;
     }
+ .ul{
+    display: flex;
+    flex-direction: column;
+ }
+ .info li {
+    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+ }
+ .info{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ /* .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
    
-   
-    .footer2{
-        display: flex;
-        flex-direction: column;
-    }
+    
+ } */
+
    
 }

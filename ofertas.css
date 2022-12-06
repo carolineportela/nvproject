@@ -27,8 +27,9 @@
 
 .container-oferta {
     display: flex;
-    margin-left: 3vh;
+    margin-left: 4vh;
     margin-top: 4vh;
+
 }
 
 .mulher {
@@ -45,19 +46,20 @@
     grid-area: oferta;
     display: flex;
     flex-direction: column;
+  
 }
 
 .produtos-oferta {
     grid-area: preco;
-    padding-left: 26vh;
-    justify-content: center;
-    align-items: center;
+    padding-left: 40vh;
+
+    
 }
 .serum-rosa{
-    padding-top: 60%;
+    padding-top: 68%;
 }
 .serum-marrom{
-    padding-top: 40%;
+    padding-top: 47%;
 
 }
 .produtos-oferta2 {
@@ -81,7 +83,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 1vh;
-    padding-top: 9vh;
+    padding-top: 11vh;
 
 }
 
@@ -99,7 +101,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 1vh;
-    margin-top: 27vh;
+    margin-top: 28vh;
 }
 
 .produto4 {
@@ -108,7 +110,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 1vh;
-    padding-top: 9vh;
+    padding-top: 11vh;
 
 
 }
@@ -181,7 +183,7 @@
         align-items: center;
         width: 30%;
         height: 20%;
-        margin-top: 55rem;
+        margin-top: 65rem;
         margin-left: 7rem;
         height: 15%;  
     }
@@ -208,11 +210,10 @@
  
  }
  .produtos-oferta{
-
     grid-area: preco;
     justify-content: center;
     align-items: center;
-    margin-right: 3rem;
+    margin-right: 14rem;
  }
  .produtos-oferta2{
     display: flex;
@@ -223,7 +224,5 @@
 section .cuidados{
     margin-top: 100%;
 }
-.line-rosa{
 
-}
  }
