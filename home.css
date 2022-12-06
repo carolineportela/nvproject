@@ -74,11 +74,12 @@
     margin-left: 9%; 
  }
  @media (max-width: 640px) {
-   .marimaria{
-    margin-left: 5vh;
+   .marimaria{ 
     margin-top: 3vh;
     width: 300px;
-    height: 400.42px;
+    height: 600.42px;
+    display: flex;
+    justify-content: center;
    }
    .image{
     display: flex;
@@ -92,9 +93,10 @@
     height: 20px;
    }
    .produto-base{
-    margin-top: 10vh;
+    /* margin-top: 10vh;
     width: 200px;
-    height: 280px;
+    height: 280px; */
+    display: none;
    }
   .lista{
     font-size: 70;

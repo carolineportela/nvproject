@@ -1,4 +1,4 @@
-.line2{
+.line2 {
     grid-area: line;
     width: 94%;
     height: 2px;
@@ -6,89 +6,102 @@
     margin-top: 1%;
     margin-left: 3%;
 }
-.titulo{
+
+.titulo {
     font-size: 14vh;
     text-align: center;
 }
-.subtitulo{
-    font-size: 2.5vh ;
+
+.subtitulo {
+    font-size: 2.5vh;
     text-align: center;
     padding-top: 3vh;
 }
-.modelo1{
+
+.modelo1 {
     width: 45vh;
-   
-    
+
+
 }
-.modelo2{
+
+.modelo2 {
     width: 48vh;
 }
-.modelo3{
+
+.modelo3 {
     width: 55vh;
 }
-.modelo4{
+
+.modelo4 {
     width: 53vh;
 }
-.modelos{
+
+.modelos {
     padding-top: 8vh;
     align-items: center;
     justify-content: center;
     display: flex;
     padding-left: 2%;
     padding-right: 4vh;
-    gap:1.5%;
-    
+    gap: 1.5%;
+
 }
 
 
-.makes{
+.makes {
     font-family: 'Ubuntu', sans-serif;
-   
+
 }
-.botao{
+
+.botao {
     padding-top: 8vh;
     padding-left: 34%;
-   
+
 }
-.buttonmake{
+
+.buttonmake {
     border: none;
     background-color: #000000;
     color: #e2b7b7;
     height: 6.5vh;
     width: 50%;
     font-size: 2.6vh;
-   
-  
-   
+
+
+
 }
 
 @media (max-width: 640px) {
-    .modelos{
+    .modelos {
         display: flex;
         flex-direction: column;
-        
-        
     }
-   
-    .modelo2{
-        margin-top: 3vh;
-    }
-    .modelo3{
-        margin-top: 3vh;
-    }
-    .modelo4{
-        margin-top: 3vh;
-    }
-   .botao{
 
- 
-    
+    .modelo1 {
+        width: 45vh;
+    }
 
-   }
-   .buttonmake{
-   height: 20%;
-   font-size: 90%;
+    .modelo2 {
+        margin-top: 3vh;
+        width: 44.7vh;
+    }
 
- 
-}
+    .modelo3 {
+        margin-top: 3vh;
+        width: 45vh;
+    }
+
+    .modelo4 {
+        margin-top: 3vh;
+        width: 45vh;
+    }
+    .titulo{
+        font-size: vh;
+    }
+    .botao {}
+
+    .buttonmake {
+        height: 50%;
+        font-size: 90%;
+    }
 }
